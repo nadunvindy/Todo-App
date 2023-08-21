@@ -23,7 +23,7 @@ function remove(todo) {
 
 <template>
   <div :class="center">
-    <h1>{{ title }} </h1>
+    <h1 class="text-3xl text-orange-400	">{{ title }} </h1>
     <input v-model="task" type="text">
     <button @click="addTask">Add</button>
   </div>
